@@ -71,14 +71,22 @@ main{
   color: var(--light);
   padding: 2% 6%;
   display: flex;
+  
   justify-content: flex-end;
   align-items: flex-end;
   text-align: right;
 }
 
 .subheader div{
+  align-items: flex-end;
+  flex-direction: row;
   flex: 0 0 90%;
 }
+.subheader img{
+  width: 280px;
+  border-radius: 20px;
+}
+
 
 .container {
   max-width: 88%;
@@ -179,10 +187,15 @@ footer a {
   text-decoration: none;
   padding: 20px;
   margin: 0 10px;
-  
+  color: var(--secondary);
+  font-size: 1.4rem;
+  margin-right: 10px;
+  text-decoration: none;
+  padding: 5px 15px;
+  margin-right: 15px;
 }
 
 
 
 
-/* Need help with media query and spacing */
+/* Need to review media query and spacing */
